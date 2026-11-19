@@ -1,0 +1,200 @@
+{
+  "updated_at": "2026-11-19 17:19 MSK",
+  "timezone": "Europe/Moscow",
+  "disclaimer": "Демо-счёт. Не инвестиционная рекомендация.",
+  "bots": [
+    {
+      "id": "nfi_x3",
+      "name": "NFI x3",
+      "status": "ok",
+      "reason": null,
+      "start_usdt": 25000.0,
+      "balance_usdt": 25122.63,
+      "pnl_usdt": 122.63,
+      "pnl_pct": 0.49,
+      "drawdown_usdt": 0.0,
+      "drawdown_pct": 0.0,
+      "closed_trades": 1,
+      "open_positions": 0,
+      "closed_pnl_usdt": 122.63,
+      "open_pnl_usdt": 0.0,
+      "updated_at": "2026-11-19 17:19 MSK",
+      "series": [
+        {
+          "t": "2026-11-16",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        },
+        {
+          "t": "2026-11-17",
+          "balance_usdt": 25122.63,
+          "pnl_usdt": 122.63
+        },
+        {
+          "t": "2026-11-18",
+          "balance_usdt": 25122.63,
+          "pnl_usdt": 122.63
+        },
+        {
+          "t": "2026-11-19",
+          "balance_usdt": 25122.63,
+          "pnl_usdt": 122.63
+        }
+      ],
+      "source": "Freqtrade API :8787 /api/v1/profit,/status,/daily"
+    },
+    {
+      "id": "nfi_x3b",
+      "name": "NFI x3b",
+      "status": "ok",
+      "reason": null,
+      "start_usdt": 25000.0,
+      "balance_usdt": 25000.0,
+      "pnl_usdt": 0.0,
+      "pnl_pct": 0.0,
+      "drawdown_usdt": 0.0,
+      "drawdown_pct": 0.0,
+      "closed_trades": 0,
+      "open_positions": 0,
+      "closed_pnl_usdt": 0.0,
+      "open_pnl_usdt": 0.0,
+      "updated_at": "2026-11-19 17:19 MSK",
+      "series": [
+        {
+          "t": "2026-11-16",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        },
+        {
+          "t": "2026-11-17",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        },
+        {
+          "t": "2026-11-18",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        },
+        {
+          "t": "2026-11-19",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        }
+      ],
+      "source": "Freqtrade API :8788 /api/v1/profit,/status,/daily"
+    },
+    {
+      "id": "nfi_x1",
+      "name": "NFI x1",
+      "status": "ok",
+      "reason": null,
+      "start_usdt": 25000.0,
+      "balance_usdt": 25000.0,
+      "pnl_usdt": 0.0,
+      "pnl_pct": 0.0,
+      "drawdown_usdt": 0.0,
+      "drawdown_pct": 0.0,
+      "closed_trades": 0,
+      "open_positions": 0,
+      "closed_pnl_usdt": 0.0,
+      "open_pnl_usdt": 0.0,
+      "updated_at": "2026-11-19 17:19 MSK",
+      "series": [
+        {
+          "t": "2026-11-16",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        },
+        {
+          "t": "2026-11-17",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        },
+        {
+          "t": "2026-11-18",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        },
+        {
+          "t": "2026-11-19",
+          "balance_usdt": 25000.0,
+          "pnl_usdt": 0.0
+        }
+      ],
+      "source": "Freqtrade API :8789 /api/v1/profit,/status,/daily"
+    },
+    {
+      "id": "passivbot",
+      "name": "Passivbot",
+      "status": "ok",
+      "reason": null,
+      "start_usdt": 25000.0,
+      "balance_usdt": 25382.15,
+      "pnl_usdt": 382.15,
+      "pnl_pct": 1.53,
+      "drawdown_usdt": 408.35,
+      "drawdown_pct": 1.59,
+      "closed_trades": 82,
+      "open_positions": 4,
+      "closed_pnl_usdt": 560.98,
+      "open_pnl_usdt": -178.84,
+      "updated_at": "2026-11-19 17:14 MSK",
+      "series": [
+        {
+          "t": "2026-11-16",
+          "balance_usdt": 25005.28,
+          "pnl_usdt": 5.28
+        },
+        {
+          "t": "2026-11-17",
+          "balance_usdt": 25618.2,
+          "pnl_usdt": 618.2
+        },
+        {
+          "t": "2026-11-18",
+          "balance_usdt": 25460.8,
+          "pnl_usdt": 460.8
+        },
+        {
+          "t": "2026-11-19",
+          "balance_usdt": 25382.15,
+          "pnl_usdt": 382.15
+        }
+      ],
+      "source": "passivbot/watchdog.log (тот же расчёт, что у вечернего отчёта: closed PnL монет бота + uPnL)"
+    }
+  ],
+  "totals": {
+    "status": "ok",
+    "bots_with_data": 4,
+    "start_usdt": 100000.0,
+    "balance_usdt": 100504.78,
+    "pnl_usdt": 504.78,
+    "pnl_pct": 0.5,
+    "drawdown_usdt": 408.35,
+    "drawdown_pct": 0.4,
+    "note": "Сумма в USDT по роботам, по которым есть данные. Доля в процентах считается от суммы стартов, проценты отдельных сделок не складываются.",
+    "series": [
+      {
+        "t": "2026-11-16",
+        "balance_usdt": 100005.28,
+        "pnl_usdt": 5.28
+      },
+      {
+        "t": "2026-11-17",
+        "balance_usdt": 100740.83,
+        "pnl_usdt": 740.83
+      },
+      {
+        "t": "2026-11-18",
+        "balance_usdt": 100583.43,
+        "pnl_usdt": 583.43
+      },
+      {
+        "t": "2026-11-19",
+        "balance_usdt": 100504.78,
+        "pnl_usdt": 504.78
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# Collector stays on the box: it reads API logins from a local secrets path.
+build_data.py
+*.env
+.env.*
+.secrets/
+__pycache__/
+.DS_Store

@@ -1,0 +1,7 @@
+# Blueprint only for this static site. Do not add other services here.
+services:
+  - type: web
+    name: robot-protiv-rynka
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: .

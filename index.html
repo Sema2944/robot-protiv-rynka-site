@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Робот против рынка — смотри демо-роботов и запусти такого же сам</title>
+  <meta name="description" content="Честный журнал демо-торговли торговых роботов. Смотри, как роботы торгуют на демо каждый день, и запусти такого же сам. Демо-счёт. Не инвестиционная рекомендация.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Робот против рынка">
+  <meta property="og:description" content="Смотри, как роботы торгуют на демо каждый день, и запусти такого же сам. Демо-счёт. Не инвестиционная рекомендация.">
+  <meta property="og:image" content="avatar.jpg">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="avatar.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="top-disclaimer">Демо-счёт. Не инвестиционная рекомендация.</div>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">
+        <img src="avatar.jpg" alt="Аватар канала «Робот против рынка»" width="46" height="46">
+        <span class="brand-name">Робот против рынка</span>
+      </a>
+      <nav aria-label="Разделы сайта">
+        <a href="#robots">Роботы</a>
+        <a href="#results">Итоги</a>
+        <a href="#videos">Ролики</a>
+        <a href="#start">Запусти сам</a>
+        <a href="#presets">Настройки</a>
+        <a href="#howto">Как читать</a>
+        <a href="privacy.html">Конфиденциальность</a>
+        <a href="terms.html">Условия</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="avatar-frame">
+          <img src="avatar.jpg" alt="Аватар канала «Робот против рынка»: робот в наушниках на фоне графика" width="220" height="220">
+        </div>
+        <div>
+          <h1>Смотри, как роботы торгуют на демо каждый день, и запусти такого же сам</h1>
+          <p class="lead">Честный журнал четырёх роботов на демо-счёте. Без прикрас и без обещаний дохода. Итоги публикуем каждый день в канале.</p>
+          <p class="badge">Демо-счёт. Не инвестиционная рекомендация.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#results">Смотреть итоги</a>
+            <a class="btn btn-ghost" href="#start">Запустить самому</a>
+            <a class="btn btn-tg" href="https://t.me/robot_protiv_rynka">Telegram-канал</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="robots">
+        <h2>Роботы</h2>
+        <p class="section-lead">Сейчас в журнале четыре робота. Все работают на демо, у каждого свой пай 25 000 USDT. Мы не рекламируем один подход — сравниваем их на дистанции.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="tag">демо</span><span class="tag">плечо ×3</span><span class="tag">40 монет</span>
+            <h3>NFI x3</h3>
+            <p>Стратегия NostalgiaForInfinity X8 на открытом Freqtrade. Фьючерсы, изолированная маржа, плечо ×3. Следит за первыми 40 монетами списка и сам открывает и закрывает сделки, до 6 позиций сразу. В работу берёт не больше половины своего пая.</p>
+          </article>
+          <article class="card">
+            <span class="tag">демо</span><span class="tag">плечо ×3</span><span class="tag">40 других монет</span>
+            <h3>NFI x3b</h3>
+            <p>Тот же NFI X8 и то же плечо ×3, но на следующих 40 монетах, без пересечения с первым роботом. Так видно, везёт ли стратегии на одном наборе монет или она ведёт себя похоже и на другом.</p>
+          </article>
+          <article class="card">
+            <span class="tag">бумажная торговля</span><span class="tag">без плеча ×1</span><span class="tag">40 монет</span>
+            <h3>NFI x1</h3>
+            <p>Снова NFI X8, те же 40 монет, что у основного x3, но это бумажная торговля: виртуальный кошелёк, без плеча, заявок на счёт не уходит. Нужен, чтобы честно сравнить ту же идею без рычага.</p>
+          </article>
+          <article class="card">
+            <span class="tag">демо</span><span class="tag">плечо ×2</span><span class="tag">13 монет</span>
+            <h3>Passivbot</h3>
+            <p>Открытый Passivbot, только лонг. Усредняет и сопровождает позицию по 13 другим монетам. Биржевое плечо ×2, в работу берёт не больше примерно полутора паёв, до 7 позиций сразу.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="results">
+        <h2>Итоги</h2>
+        <p class="section-lead">Живые цифры с демо-роботов. Если источник не ответил, пишем «нет данных» и ничего не додумываем. Проценты отдельных сделок в сумму не складываем: доля считается от стартового пая в USDT.</p>
+        <p class="badge">Демо-счёт. Не инвестиционная рекомендация.</p>
+        <p class="update-time" id="updated-at">Загружаем цифры…</p>
+        <div class="kpi">
+          <div class="kpi-item"><span class="label">Общий результат</span><span class="value" id="kpi-pnl">…</span></div>
+          <div class="kpi-item"><span class="label">От суммы стартов</span><span class="value" id="kpi-pct">…</span></div>
+          <div class="kpi-item"><span class="label">Общая просадка</span><span class="value" id="kpi-dd">…</span></div>
+          <div class="kpi-item"><span class="label">Роботов с данными</span><span class="value" id="kpi-count">…</span></div>
+        </div>
+        <div class="table-wrap">
+          <table class="stats">
+            <thead>
+              <tr>
+                <th>Робот</th>
+                <th>Баланс</th>
+                <th>Результат</th>
+                <th>Доля</th>
+                <th>Просадка</th>
+                <th>Закрытых сделок</th>
+                <th>Открытых позиций</th>
+              </tr>
+            </thead>
+            <tbody id="stats-body">
+              <tr><td colspan="7">Загружаем цифры…</td></tr>
+            </tbody>
+            <tfoot id="stats-foot"></tfoot>
+          </table>
+        </div>
+        <div class="stats-cards" id="stats-cards"></div>
+        <div class="chart-box">
+          <h3>Баланс каждого робота, USDT</h3>
+          <div class="legend">
+            <span><i class="swatch" style="background:#3dff9a"></i>NFI x3</span>
+            <span><i class="swatch" style="background:#b57aff"></i>NFI x3b</span>
+            <span><i class="swatch" style="background:#ff8a3d"></i>NFI x1</span>
+            <span><i class="swatch" style="background:#4fd2ff"></i>Passivbot</span>
+          </div>
+          <canvas id="balance-chart" width="800" height="280" role="img" aria-label="График баланса четырёх демо-роботов"></canvas>
+        </div>
+      </section>
+
+      <section class="section" id="videos">
+        <h2>Ролики</h2>
+        <p class="section-lead">Короткий дневник на YouTube Shorts и те же выпуски в Telegram. Без обещаний дохода.</p>
+        <div class="video-grid">
+          <a class="video-card" href="https://youtube.com/shorts/iIZzN1qFDpM">
+            <div>
+              <div class="kind">YouTube Shorts · день 2</div>
+              <h3>Спринтер и снайпер</h3>
+              <p>Что успели сделать роботы за второй день демо.</p>
+            </div>
+            <div class="play">Смотреть ролик →</div>
+          </a>
+          <a class="video-card" href="https://youtube.com/shorts/Dqao7F0PAgA">
+            <div>
+              <div class="kind">YouTube Shorts · день 3</div>
+              <h3>Когда биржа закрыла дверь</h3>
+              <p>Дневной выпуск: связь, простой и что было с результатом.</p>
+            </div>
+            <div class="play">Смотреть ролик →</div>
+          </a>
+          <a class="video-card" href="https://t.me/robot_protiv_rynka">
+            <div>
+              <div class="kind">Telegram</div>
+              <h3>Все выпуски в канале</h3>
+              <p>Ежедневные ролики и текстовые итоги. Подключайтесь, чтобы не пропустить следующие дни.</p>
+            </div>
+            <div class="play">Открыть Telegram →</div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="start">
+        <h2>Запусти сам</h2>
+        <p class="section-lead">Роботы, которые мы гоняем, открытые. Их можно поставить самостоятельно. Мы не ведём на биржу и не даём реферальных ссылок — только официальные репозитории и честные риски.</p>
+        <p class="badge">Демо-счёт. Не инвестиционная рекомендация.</p>
+        <ol class="steps">
+          <li><strong>Изучите открытый код.</strong> NFI работает на <a href="https://github.com/freqtrade/freqtrade">Freqtrade</a>, стратегия — <a href="https://github.com/iterativv/NostalgiaForInfinity">NostalgiaForInfinity</a>. Второй робот — <a href="https://github.com/enarjord/passivbot">Passivbot</a>. Читайте документацию авторов, а не чужие «сигналы».</li>
+          <li><strong>Начинайте только с демо-счёта.</strong> Пока робот не прошёл свою дистанцию на бумаге или демо, не стоит переносить его на живые деньги. Наш журнал как раз про эту дистанцию.</li>
+          <li><strong>Сначала поймите настройки.</strong> Список монет, размер пая, плечо и лимит сделок влияют на риск сильнее, чем «название стратегии». Позже мы соберём проверенные наборы в разделе «Готовые настройки».</li>
+        </ol>
+        <div class="risk">
+          <p><strong>Риски, о которых нельзя забывать</strong></p>
+          <ul>
+            <li>Плечо увеличивает и прибыль, и убыток. На ×3 движение рынка против позиции ощущается втрое сильнее.</li>
+            <li>Фьючерсная позиция может быть ликвидирована: при сильном движении можно потерять всю маржу по сделке, а в тяжёлом случае — и больше, чем планировали.</li>
+            <li>Просадка — обычная часть работы робота. Даже если сейчас в журнале плюс, глубокая яма может случиться позже.</li>
+            <li>Торговля с плечом может привести к потере всех средств. Рискуйте только тем, что готовы потерять.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="presets">
+        <h2>Готовые настройки</h2>
+        <p><span class="badge badge-soon">Скоро</span></p>
+        <p class="section-lead">Когда набор настроек будет проверен на дистанции демо, мы выложим его здесь. Сейчас не продаём и не называем цену. Если хотите узнать первым — подпишитесь на канал.</p>
+        <div class="cta-row">
+          <a class="btn btn-tg" href="https://t.me/robot_protiv_rynka">Узнать первым</a>
+        </div>
+      </section>
+
+      <section class="section" id="howto">
+        <h2>Как читать цифры</h2>
+        <ul class="read-list">
+          <li>Это демо-журнал за несколько дней, а не витрина доходности. Короткий отрезок ничего не доказывает.</li>
+          <li>У каждого робота старт 25 000 USDT. Баланс = старт + результат в USDT, с учётом открытых позиций.</li>
+          <li>Доля в процентах считается только как результат в USDT, делённый на старт. Проценты отдельных сделок мы в сумму не складываем.</li>
+          <li>Просадка считается от максимума кривой баланса, а не «на глаз». Общая просадка считается по сумме роботов, по которым есть данные.</li>
+          <li>NFI x1 — бумажная торговля: цифры виртуальные. NFI x3b и NFI x1 могут показывать ноль, если ещё не было сделок: это тоже данные, а не ошибка.</li>
+          <li>Если робот или журнал недоступны, в таблице будет «нет данных». Мы не подставляем старые или выдуманные числа.</li>
+          <li>Прошлый результат не обещает будущий. Материалы образовательные и не являются индивидуальной инвестиционной рекомендацией.</li>
+        </ul>
+        <p class="badge">Демо-счёт. Не инвестиционная рекомендация.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-row">
+        <p>© 2026 «Робот против рынка». Демо-счёт. Не инвестиционная рекомендация.</p>
+        <div class="footer-links">
+          <a href="privacy.html">Политика конфиденциальности</a>
+          <a href="terms.html">Условия использования</a>
+          <a href="mailto:semenkin4@gmail.com">semenkin4@gmail.com</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="site.js"></script>
+</body>
+</html>
