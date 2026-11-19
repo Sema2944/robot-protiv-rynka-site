@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 23:33 MSK",
+  "updated_at": "2026-11-19 23:34 MSK",
   "timezone": "Europe/Moscow",
   "disclaimer": "Демо-счёт. Не инвестиционная рекомендация.",
   "bots": [
@@ -18,7 +18,7 @@
       "open_positions": 0,
       "closed_pnl_usdt": 122.63,
       "open_pnl_usdt": 0.0,
-      "updated_at": "2026-11-19 23:33 MSK",
+      "updated_at": "2026-11-19 23:34 MSK",
       "series": [
         {
           "t": "2026-11-16",
@@ -49,16 +49,16 @@
       "status": "ok",
       "reason": null,
       "start_usdt": 25000.0,
-      "balance_usdt": 25044.39,
-      "pnl_usdt": 44.39,
-      "pnl_pct": 0.18,
+      "balance_usdt": 25042.94,
+      "pnl_usdt": 42.94,
+      "pnl_pct": 0.17,
       "drawdown_usdt": 0.0,
       "drawdown_pct": 0.0,
       "closed_trades": 0,
       "open_positions": 1,
       "closed_pnl_usdt": 0.0,
-      "open_pnl_usdt": 44.39,
-      "updated_at": "2026-11-19 23:33 MSK",
+      "open_pnl_usdt": 42.94,
+      "updated_at": "2026-11-19 23:34 MSK",
       "series": [
         {
           "t": "2026-11-16",
@@ -77,8 +77,8 @@
         },
         {
           "t": "2026-11-19",
-          "balance_usdt": 25044.39,
-          "pnl_usdt": 44.39
+          "balance_usdt": 25042.94,
+          "pnl_usdt": 42.94
         }
       ],
       "source": "Freqtrade API :8788 /api/v1/profit,/status,/daily"
@@ -98,7 +98,7 @@
       "open_positions": 0,
       "closed_pnl_usdt": 0.0,
       "open_pnl_usdt": 0.0,
-      "updated_at": "2026-11-19 23:33 MSK",
+      "updated_at": "2026-11-19 23:34 MSK",
       "series": [
         {
           "t": "2026-11-16",
@@ -168,8 +168,8 @@
     "status": "ok",
     "bots_with_data": 4,
     "start_usdt": 100000.0,
-    "balance_usdt": 101806.92,
-    "pnl_usdt": 1806.92,
+    "balance_usdt": 101805.47,
+    "pnl_usdt": 1805.47,
     "pnl_pct": 1.81,
     "drawdown_usdt": 387.18,
     "drawdown_pct": 0.38,
@@ -192,8 +192,8 @@
       },
       {
         "t": "2026-11-19",
-        "balance_usdt": 101806.92,
-        "pnl_usdt": 1806.92
+        "balance_usdt": 101805.47,
+        "pnl_usdt": 1805.47
       }
     ]
   }
