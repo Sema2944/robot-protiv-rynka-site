@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 21:11 MSK",
+  "updated_at": "2026-11-23 21:03 MSK",
   "timezone": "Europe/Moscow",
   "disclaimer": "Демо-счёт. Не инвестиционная рекомендация.",
   "bots": [
@@ -18,7 +18,7 @@
       "open_positions": 0,
       "closed_pnl_usdt": 242.92,
       "open_pnl_usdt": 0.0,
-      "updated_at": "2026-11-22 21:11 MSK",
+      "updated_at": "2026-11-23 21:03 MSK",
       "series": [
         {
           "t": "2026-11-16",
@@ -54,6 +54,11 @@
           "t": "2026-11-22",
           "balance_usdt": 25242.92,
           "pnl_usdt": 242.92
+        },
+        {
+          "t": "2026-11-23",
+          "balance_usdt": 25242.92,
+          "pnl_usdt": 242.92
         }
       ],
       "source": "Freqtrade API :8787 /api/v1/profit,/status,/daily"
@@ -64,16 +69,16 @@
       "status": "ok",
       "reason": null,
       "start_usdt": 25000.0,
-      "balance_usdt": 25001.48,
-      "pnl_usdt": 1.48,
-      "pnl_pct": 0.01,
-      "drawdown_usdt": 113.67,
-      "drawdown_pct": 0.45,
-      "closed_trades": 4,
-      "open_positions": 2,
-      "closed_pnl_usdt": 115.15,
-      "open_pnl_usdt": -113.67,
-      "updated_at": "2026-11-22 21:11 MSK",
+      "balance_usdt": 25175.23,
+      "pnl_usdt": 175.23,
+      "pnl_pct": 0.7,
+      "drawdown_usdt": 0.0,
+      "drawdown_pct": 0.0,
+      "closed_trades": 5,
+      "open_positions": 1,
+      "closed_pnl_usdt": 118.52,
+      "open_pnl_usdt": 56.71,
+      "updated_at": "2026-11-23 21:03 MSK",
       "series": [
         {
           "t": "2026-11-16",
@@ -107,8 +112,13 @@
         },
         {
           "t": "2026-11-22",
-          "balance_usdt": 25001.48,
-          "pnl_usdt": 1.48
+          "balance_usdt": 25115.15,
+          "pnl_usdt": 115.15
+        },
+        {
+          "t": "2026-11-23",
+          "balance_usdt": 25175.23,
+          "pnl_usdt": 175.23
         }
       ],
       "source": "Freqtrade API :8788 /api/v1/profit,/status,/daily"
@@ -128,7 +138,7 @@
       "open_positions": 0,
       "closed_pnl_usdt": 3.0,
       "open_pnl_usdt": 0.0,
-      "updated_at": "2026-11-22 21:11 MSK",
+      "updated_at": "2026-11-23 21:03 MSK",
       "series": [
         {
           "t": "2026-11-16",
@@ -164,6 +174,11 @@
           "t": "2026-11-22",
           "balance_usdt": 25003.0,
           "pnl_usdt": 3.0
+        },
+        {
+          "t": "2026-11-23",
+          "balance_usdt": 25003.0,
+          "pnl_usdt": 3.0
         }
       ],
       "source": "Freqtrade API :8789 /api/v1/profit,/status,/daily"
@@ -174,16 +189,16 @@
       "status": "ok",
       "reason": null,
       "start_usdt": 25000.0,
-      "balance_usdt": 27510.99,
-      "pnl_usdt": 2510.99,
-      "pnl_pct": 10.04,
+      "balance_usdt": 27701.2,
+      "pnl_usdt": 2701.2,
+      "pnl_pct": 10.8,
       "drawdown_usdt": 1182.93,
-      "drawdown_pct": 4.3,
-      "closed_trades": 213,
-      "open_positions": 7,
-      "closed_pnl_usdt": 2512.07,
-      "open_pnl_usdt": -1.08,
-      "updated_at": "2026-11-22 21:01 MSK",
+      "drawdown_pct": 4.26,
+      "closed_trades": 224,
+      "open_positions": 6,
+      "closed_pnl_usdt": 2763.23,
+      "open_pnl_usdt": -62.03,
+      "updated_at": "2026-11-23 21:00 MSK",
       "series": [
         {
           "t": "2026-11-16",
@@ -217,8 +232,13 @@
         },
         {
           "t": "2026-11-22",
-          "balance_usdt": 27510.99,
-          "pnl_usdt": 2510.99
+          "balance_usdt": 27528.76,
+          "pnl_usdt": 2528.76
+        },
+        {
+          "t": "2026-11-23",
+          "balance_usdt": 27701.2,
+          "pnl_usdt": 2701.2
         }
       ],
       "source": "passivbot/watchdog.log (тот же расчёт, что у вечернего отчёта: closed PnL монет бота + uPnL)"
@@ -228,9 +248,9 @@
     "status": "ok",
     "bots_with_data": 4,
     "start_usdt": 100000.0,
-    "balance_usdt": 102758.39,
-    "pnl_usdt": 2758.39,
-    "pnl_pct": 2.76,
+    "balance_usdt": 103122.35,
+    "pnl_usdt": 3122.35,
+    "pnl_pct": 3.12,
     "drawdown_usdt": 1182.93,
     "drawdown_pct": 1.15,
     "note": "Сумма в USDT по роботам, по которым есть данные. Доля в процентах считается от суммы стартов, проценты отдельных сделок не складываются.",
@@ -267,8 +287,13 @@
       },
       {
         "t": "2026-11-22",
-        "balance_usdt": 102758.39,
-        "pnl_usdt": 2758.39
+        "balance_usdt": 102889.83,
+        "pnl_usdt": 2889.83
+      },
+      {
+        "t": "2026-11-23",
+        "balance_usdt": 103122.35,
+        "pnl_usdt": 3122.35
       }
     ]
   }
